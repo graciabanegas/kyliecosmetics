@@ -4,13 +4,14 @@ body{
 font-family: 'Montserrat', sans-serif;
 }
 header{
-	padding:10px 0;
 	background-color: #fff;
 	border-bottom: solid;
 }
 header, .bg-skin{
 	border: none;
-	padding: 12px;
+}
+.head-cat{
+	padding: 0;
 }
 
 .bg-color{
@@ -62,28 +63,28 @@ header img{
 #categorias .kylie{
 	color: #000;
 	background-color: #fff;
-	padding: 7px 150px;
+	padding: 16px 0px;
 	display: block;
 }
 
 #categorias .cosmetics{
 	color: #fff;
 	background-color: #000;
-	padding: 7px 100px;
+	padding: 16px 0px;
 	display: block;
 }
 
 #categorias .skin{
 	color: #fff;
 	background-color: #e8c3d1;
-	padding: 7px 130px;	
+	padding: 16px 0px;	
 	display: block;
 }
 
 #categorias .baby{
 	color: #fff;
 	background-color: #C7D4E6;
-	padding: 7px 120px;
+	padding: 16px 0px;
 	display: block;
 }
 
@@ -463,11 +464,18 @@ span{
     padding: 40px 0;	
     min-height: 200px;
 }
-.new-header h1, p{
+.new-header h1{
 	text-align: right;
 	color: #fff;
 	margin-right: 10%;
 }
+.new-header p{
+	text-align: right;
+	color: #fff;
+	margin-right: 10%;
+}
+
+
 .new-top{
 	color: #000;
 	text-align: left;
@@ -493,7 +501,7 @@ span{
 	color: #fff;
 	margin-right: 10%;
 }
-.best-header p{
+.best-header-info {
 	font-size: 22px;
 	text-align: right;
 	color: #fff;
@@ -536,4 +544,189 @@ span{
 
 .footer-skin{
 	margin-top: 0;
+}
+
+#glossbundle{
+	margin-top: 4%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	background-color: rgba(0,0,0,0.60);
+	border-radius: 50%;
+	padding: 3%;
+}
+
+#glossbundle{
+	text-align: left;
+}
+
+#glossbundle p{
+	color: #000000 !important;
+	text-align: left;
+	margin-top: 5%;
+}
+
+#glossbundle h3{
+	font-weight: 700;
+	font-size: 35px;
+}
+
+#glossbundle h4{
+	font-weight: 400;
+	font-size: 18px;
+	color: #8E8E8E;
+}
+
+.img-bundle{
+	width: 800px;
+}
+
+#cart-header {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+
+
+.cont-shop{
+	color: #c3c3c3dd;
+	text-align: left;
+	text-decoration: none;
+}
+.cont-shop:hover{
+	color: #000;
+}
+.cart-close{
+	text-align: right;
+}
+#shopping-bag {
+    background-color: #f6f6f6;
+    padding: 89px 0;
+}
+
+
+.bag p{
+	text-align: center;
+	color: #000;
+	margin: 0;
+}
+.bag hr{
+	width: 30%;
+    margin: auto;
+    margin-bottom: 35px;
+    border: solid 1px #000;
+}
+
+.shopping-cont{
+	color: #000;
+	text-align: left;
+	margin: 0;
+}
+.titulo{
+	text-align: center;
+}
+.subtitulo{
+	font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5mm;
+}
+.bag-info{
+	padding: 20px 0;
+    display: flex;
+    align-items: center;
+    height: 200px;	
+}
+
+.bag-info i{
+	margin-bottom: 20px;
+}
+
+.checkout{
+	width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 24px 0;
+}
+.precio{
+	text-align: right;
+}
+.btn-checkout{
+	background-color: #000;
+	color: #fff;
+	width: 90%;
+	height: 50px;
+}
+
+.checkout-last{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.disclaimer{
+	color: #acacac;
+	text-align: center;
+	margin: 20px 30px;
+}
+
+.promo-form{
+	margin-top: 25px;
+}
+.promo-form span{
+	align-self: right;
+}
+
+.submit-code {
+    padding: 10px 35px;
+    border: solid 2px #828282;
+    border-radius: 2px;
+    color: #828282;
+    background-color: transparent;
+    font-weight: 600;20
+}
+.submit-code:hover {
+    background-color: #000;
+}
+.form-2 {
+    text-align: right;
+}
+
+.remove{
+	text-decoration: none;
+    color: #272fca;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.promo-code {
+    padding: 10px 31px;
+    border: solid 2px #828282;
+    color: #828282;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.social{
+	margin-bottom: 50px;
+    width: 80%;
+}
+.redes {
+   font-size: 33px;
+}
+.red-btn{
+	text-decoration: none;
+	color: #000;
+}
+.red-btn i{
+    padding: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+}
+.red-btn i:hover{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
 }

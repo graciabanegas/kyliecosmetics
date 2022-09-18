@@ -98,6 +98,41 @@ a{
 }
 
 
+.carousel-caption{
+
+	display: grid !important;
+
+	align-content: center;
+
+	height: 100%;
+
+}
+
+.carousel-item{
+
+	/*height: 100vh; opcional: en caso de no utilizar una imagen de fondo por slide*/
+
+}
+
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+
+.carousel .carousel-item {
+
+  	height: 500px;
+
+}
+
+.carousel-item img {
+
+    position:relative;
+
+    object-fit: contain;
+
+    top: 0;
+
+    min-width: 640px;
+}
+
 
 
 
